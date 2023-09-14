@@ -4,40 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <style>
+        header {padding: 8px;} header.container{} article {margin-bottom: 24px;}#carousel{margin-bottom: 24px;}
+    </style>
     <title>Bootstrap Avançado</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Animais fofos</h1>
+            <h1>animaizinhos</h1>
         </div>
     </header>
-    <div id="carouselAnimais" class="container carousel slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselAnimais" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselAnimais" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselAnimais" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <!-- Carousel -->
+    <div id="carousel" class="container">
+        <div id="carouselAnimais" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselAnimais" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselAnimais" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselAnimais" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="images/carousel-001.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="images/carousel-002.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="images/carousel-003.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselAnimais" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselAnimais" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-            <img src="images/carousel-001.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-            <img src="images/carousel-002.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-            <img src="images/carousel-003.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAnimais" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselAnimais" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
+    <!-- Cards -->
+    <section class="container">
+        <div class="row">
+            <div class="col-4">
+                <article class="card">
+                    <img class="card-img-top" src="images/card (1).jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Um título fofo</h4>
+                    </div>
+                </article>
+            </div>
+            <div class="col-4">
+                <article class="card">
+                    <img class="card-img-top" src="images/card (2).jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Um título fofo</h4>
+                    </div>
+                </article>
+            </div>
+            <div class="col-4">
+                <article class="card">
+                    <img class="card-img-top" src="images/card (3).jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Um título fofo</h4>
+                    </div>
+                </article>
+            </div>
+            <div class="col-4">
+                <article class="card">
+                    <img class="card-img-top" src="images/card (4).jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Um título fofo</h4>
+                    </div>
+                </article>
+            </div>
+            <div class="col-4">
+                <article class="card">
+                    <img class="card-img-top" src="images/card (5).jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Um título fofo</h4>
+                    </div>
+                </article>
+            </div>
+            <div class="col-4">
+                <article class="card">
+                    <img class="card-img-top" src="images/card (6).jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Um título fofo</h4>
+                    </div>
+                </article>
+            </div>
+            <div class="col-4">
+                <article class="card">
+                    <img class="card-img-top" src="images/card (7).jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Um título fofo</h4>
+                    </div>
+                </article>
+            </div>
+            <div class="col-4">
+                <article class="card">
+                    <img class="card-img-top" src="images/card (8).jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Um título fofo</h4>
+                    </div>
+                </article>
+            </div>
+            <div class="col-4">
+                <article class="card">
+                    <img class="card-img-top" src="images/card (9).jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Um título fofo</h4>
+                    </div>
+                </article>
+            </div>
+            <div class="col-4">
+                <article class="card">
+                    <img class="card-img-top" src="images/card (10).jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Um título fofo</h4>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+        
+    </section>
     <script src="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
 </body>
 </html>
